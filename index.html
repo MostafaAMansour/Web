@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="bg-img">
+    <div class="container">
+      <button class="openbtn button" onclick="openNav()"
+        style="width:auto; height:8vh; padding: 0% 70%; margin: -50% -20%;">☰</button>
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search" style="height: 6vh; z-index: 2;width:20vw ;">
+          </form>
+        </div>
+        <br>
+        <br>
+        <br>
+        <a href="#">Home</a>
+        <a href="join.html">Join Us</a>
+        <a href="Embedded.html">Course</a>
+        <a href="prices.html">Prices</a>
+        <a href="Feedback.html">Feedback</a>
+      </div>
+    </div>
+  </div>
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+
+  <br>
+  <br>
+  <div class="slideshow-container cc">
+    <div class="mySlides fade cc">
+      <img src="img/c++.png" style="width:100%; height:100%">
+    </div>
+
+    <div class="mySlides fade cc">
+      <img src="img/embedded.png" style="width:100%; height:100%">
+    </div>
+
+    <div class="mySlides fade cc">
+      <img src="img/Web.png" style="width:100%; height:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+  <fieldset>
+    <legend>Courses?</legend>
+    <div class="responsive">
+      <div class="gallery">
+        <a href="Arduino.html">
+          <img src="img/arduino.png" alt="arduino">
+        </a>
+        <div class="desc">Click here to view Arduino course!!</div>
+      </div>
+    </div>
+
+
+    <div class="responsive">
+      <div class="gallery">
+        <a href="Web.html">
+          <img src="img/Web.png" alt="web">
+        </a>
+        <div class="desc">Click here to view Web course!!</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a href="Embedded.html">
+          <img src="img/embedded.png" alt="embedded">
+        </a>
+        <div class="desc">Click here to view Embedded course!!</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a href="C++.html">
+          <img src="img/c++.png" alt="C++">
+        </a>
+        <div class="desc">Click here to view C++ course!!</div>
+      </div>
+    </div>
+  </fieldset>
+  <div class="clearfix"></div>
+
+  <div class="footer-basic">
+    <footer>
+      <h1
+        style="text-align:center; color: #4b4c4d; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+        Please Contact Us</h1>
+      <div class="social">
+        <a href="tel:+201210125794"><i class="icon ion-social-whatsapp"></i>
+        </a><a href="mailto:mo.abdallah3535@gmail.com"><i class="icon ion-email"></i></a>
+        <a href="feedback.html"><i class="icon ion-help"></i></a>
+        <a href="https://www.facebook.com/35.Mostafa.abdalla"><i class="icon ion-social-facebook"></i></a>
+      </div>
+      <p class="copyright">Mostafa Mansour</p>
+    </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
